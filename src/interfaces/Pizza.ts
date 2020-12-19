@@ -1,15 +1,15 @@
 export abstract class Pizza {
-  abstract name: string;
-  prepare() {
+  public abstract name: string;
+  public prepare() {
     console.log("prepare() - defalult way");
   }
-  bake() {
+  public bake() {
     console.log("bake() - defaule way");
   }
-  cut() {
+  public cut() {
     console.log("cut() - default way");
   }
-  box() {
+  public box() {
     console.log("box() - default way");
   }
 }
