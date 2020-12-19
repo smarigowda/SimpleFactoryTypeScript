@@ -1,4 +1,5 @@
 export abstract class Pizza {
+  abstract name: string;
   prepare() {
     console.log("prepare() - defalult way");
   }
